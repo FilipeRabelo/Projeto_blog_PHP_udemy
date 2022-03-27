@@ -3,7 +3,7 @@
 ?>
 
 <body>
-    <h1>Ola mundo</h1>
+    <h1>Pagina de contato</h1>
 </body>
 
 </html>
