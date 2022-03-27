@@ -2,8 +2,8 @@
     include_once("templates/header.php");
 ?>
 
-<body>
-    <h1>Ola mundo</h1>
-</body>
+    <h1>Olá mundo!</h1>  <!-- somente o miolo, vai ser operado nas paginas, restante dos templates -->
 
-</html>
+<?php
+    include_once("templates/footer.php");
+?>

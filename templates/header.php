@@ -27,6 +27,7 @@ include_once("helpers/url.php");  // ARQUIVO DE HELP //
 </head>
 
 <body>
+    
     <header>
         Template Cabeçalho
     </header>
