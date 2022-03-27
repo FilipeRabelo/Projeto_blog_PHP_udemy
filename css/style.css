@@ -1,8 +1,47 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* para padronizar os limites das bodas */
+}
+
+html{
+    min-height: 100vh;
 }
 
 body {
     background-color: aqua;
+    position: relative;
 }
 
+main{
+    margin-bottom: 250px;
+}
+
+/* navbar */
+
+
+#logo{
+   position: absolute;
+   top: 10px;
+   left: 9.5%;
+}
+
+#logo img{
+    width:  50px;
+}
+
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    padding: 20px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+#navBar li{
+    margin: 0 10px;
+    padding: 5px;
+}

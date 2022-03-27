@@ -27,7 +27,24 @@ include_once("helpers/url.php");  // ARQUIVO DE HELP //
 </head>
 
 <body>
-    
+
     <header>
-        Template Cabeçalho
+       
+        <a href="<?= $BASE_URL ?>" id="logo">
+            <img src=" <?= $BASE_URL ?>/img/logo.svg"  alt="Blog Codar">
+        </a>
+
+        <nav>
+            <ul id="navBar">
+
+                <li> <a href="<?= $BASE_URL ?>">Home</a> </li>
+                <li> <a href="#" target="_blank">Categorias</a></li>
+                <li> <a href="#" target="_blank">Sobre</a></li>
+                <li><a href="<?= $BASE_URL ?>contato.php">Contatos</a></li>
+                
+            </ul>
+        </nav>
+
+
+
     </header>
