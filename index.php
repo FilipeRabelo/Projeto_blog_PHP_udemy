@@ -30,7 +30,7 @@
                     <div class="tags-container">
                         <?php foreach($post["tags"] as $tag): ?>
                             
-                            <a href="#"> <?= $tag ?> </a>
+                            <a href="#"><?= $tag ?></a>
 
                         <?php endforeach; ?>
                     </div>
