@@ -1,6 +1,8 @@
 <!-- TEMPLATES -->
 <?php
-include_once("helpers/url.php");  // ARQUIVO DE HELP //
+    include_once("helpers/url.php");  // ARQUIVO DE HELP //
+    include_once("data/categories.php");
+    include_once("data/posts.php");
 ?>
 
 
