@@ -35,16 +35,16 @@ include_once("helpers/url.php");  // ARQUIVO DE HELP //
         </a>
 
         <nav>
-            <ul id="navBar">
+            <ul id="navbar">
 
-                <li> <a href="<?= $BASE_URL ?>">Home</a> </li>
-                <li> <a href="#" target="_blank">Categorias</a></li>
-                <li> <a href="#" target="_blank">Sobre</a></li>
-                <li><a href="<?= $BASE_URL ?>contato.php">Contatos</a></li>
+                <li> <a href="<?= $BASE_URL ?>" class="nav-link"> Home </a> </li>
+                <li> <a href="#" target="_blank" class="nav-link"> Categorias </a></li>
+                <li> <a href="#" target="_blank" class="nav-link"> Sobre </a></li>
+                <li><a href="<?= $BASE_URL ?>contato.php" class="nav-link"> Contatos </a></li>
                 
             </ul>
         </nav>
-
+ 
 
 
     </header>

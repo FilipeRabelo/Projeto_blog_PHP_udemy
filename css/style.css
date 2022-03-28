@@ -7,10 +7,6 @@
 
 html{
     min-height: 100vh;
-}
-
-body {
-    background-color: aqua;
     position: relative;
 }
 
@@ -19,8 +15,6 @@ main{
 }
 
 /* navbar */
-
-
 #logo{
    position: absolute;
    top: 10px;
@@ -31,7 +25,7 @@ main{
     width:  50px;
 }
 
-#navBar{
+#navbar{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +35,35 @@ main{
     list-style: none;
 }
 
-#navBar li{
+#navbar li{
     margin: 0 10px;
     padding: 5px;
 }
+
+#navbar .nav-link{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 14px;
+}
+
+#navbar .nav-link:hover{
+    color: #999;  
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    padding: 50px 0;
+}
+  
+
+
+
+
