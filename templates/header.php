@@ -30,12 +30,10 @@
 
 <body>
 
-    <header>
-       
+    <header>       
         <a href="<?= $BASE_URL ?>" id="logo">
             <img src=" <?= $BASE_URL ?>/img/logo.svg"  alt="Blog Codar">
         </a>
-
         <nav>
             <ul id="navbar">
 
@@ -46,7 +44,5 @@
                 
             </ul>
         </nav>
- 
-
 
     </header>
