@@ -1,17 +1,17 @@
 <?php
-include_once("templates/header.php");
+  include_once("templates/header.php");
 
-if (isset($_GET['id'])) {
+  if (isset($_GET['id'])) {
 
-  $postId = $_GET['id'];
-  $currentPost;
+    $postId = $_GET['id'];
+    $currentPost;
 
-  foreach ($posts as $post) {
-    if ($post['id'] == $postId) {
-      $currentPost = $post;
+    foreach ($posts as $post) {
+      if ($post['id'] == $postId) {
+        $currentPost = $post;
+      }
     }
   }
-}
 
 ?>
 <main id="post-container">
@@ -48,5 +48,5 @@ if (isset($_GET['id'])) {
   </aside>
 </main>
 <?php
-include_once("templates/footer.php")
+  include_once("templates/footer.php")
 ?>
